@@ -16,7 +16,7 @@
 .recent-match-li-cont img {
   width: 40px;
 }
-.recent-match-li-cont h1 {
+.recent-match-li-cont .com-h1 {
   color: #ffffff;
   font-size: 16px;
   font-weight: normal;
@@ -45,7 +45,7 @@
   .recent-match-li-cont img {
     width: 70px;
   }
-  .recent-match-li-cont h1 {
+  .recent-match-li-cont .com-h1 {
     font-size: 26px;
   }
   .recent-match-li-cont p {
@@ -65,7 +65,7 @@
   .recent-match-li-cont img {
     width: 90px;
   }
-  .recent-match-li-cont h1 {
+  .recent-match-li-cont .com-h1 {
     font-size: 29px;
   }
   .recent-match-li-cont p {
@@ -75,7 +75,7 @@
 
 @media (min-width: 1200px) {
   .recent-match-li-cont {
-    width: 280px;
+    width: 250px;
     margin: 25px;
   }
 }

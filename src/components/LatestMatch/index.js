@@ -17,15 +17,12 @@ const LatestMatch = props => {
     <div className="latest-match-cont">
       <div className="cont-1">
         <div>
-          <p>{competingTeam}</p>
-          <h1>{date}</h1>
-          <h1>{venue}</h1>
+          <p className="comp-h1">{competingTeam}</p>
+          <p className="comp-h1">{date}</p>
+          <p className="comp-h1">{venue}</p>
           <p>{result}</p>
         </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png"
-          alt={competingTeam}
-        />
+        <img src={competingTeamLogo} alt={`latest match ${competingTeam}`} />
       </div>
       <div className="cont-2">
         <h1>First Innings</h1>

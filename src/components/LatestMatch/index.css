@@ -9,8 +9,14 @@
   justify-content: space-between;
   align-items: center;
 }
+.cont-1 .comp-h1 {
+  color: #ffffff !important;
+  font-size: 25px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
 .cont-1 h1 {
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 20px;
   font-weight: normal;
   padding-bottom: 15px;

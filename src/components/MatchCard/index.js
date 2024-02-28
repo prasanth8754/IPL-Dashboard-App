@@ -15,8 +15,8 @@ const MatchCard = props => {
 
   return (
     <li className="recent-match-li-cont">
-      <img src={competingTeamLogo} alt={competingTeam} />
-      <h1>{competingTeam}</h1>
+      <img src={competingTeamLogo} alt={`competing team ${competingTeam}`} />
+      <p className="com-h1">{competingTeam}</p>
       <p>{result}</p>
       <p className={txtColor}>{matchStatus}</p>
     </li>
